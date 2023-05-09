@@ -1,0 +1,165 @@
+/* TEMPORARY */
+.modal-4x-5x {
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--clr-primary-contrast);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+/* UTIL */
+
+.fs-300 {
+  font-size: var(--fs-300);
+}
+
+/* HEADER */
+
+.logo-img {
+  aspect-ratio: 1 / 1;
+  width: 50px;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.modal-header h4 {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-semi-bold);
+}
+
+/* FORMS */
+
+.form-content {
+}
+
+.form-alt {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-icon {
+
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.form-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-top: 1em;
+}
+
+.form-input {
+  padding: 0.25rem 1rem;
+  border-radius: 0.5em;
+  outline: none;
+}
+
+.forgot-link {
+  margin-right: auto;
+  font-family: inherit;
+}
+
+.forgot-link a {
+  font-size: var(--fs-xs);
+  text-decoration: none;
+  color: inherit;
+}
+
+.forgot-link a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-sign {
+  width: 100%;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-login {
+  padding: 0.5rem 1rem;
+  background-color: var(--clr-primary);
+  border: none;
+  color: inherit;
+}
+
+.btn-signup-alt {
+  background-color: transparent;
+  color: inherit;
+  padding: 0.5rem 1rem;
+}
+
+.btn-signup-alt:hover {
+  background-color: white;
+  color: blue;
+}
+
+.btn-redirect {
+  background-color: transparent;
+  color: inherit;
+}
+
+.btn-modal-close {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
+
+
+@media (min-width: 37.5em) {
+  .modal {
+    display: block;
+    border-radius: 0.8em;
+    padding: 2em;
+  }
+
+  .modal-4x-5x {
+    height: 400px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 80em) {
+  .modal {
+    display: block;
+    border-radius: 0.8em;
+    padding: 2em;
+  }
+
+  .modal-4x-5x {
+    height: 400px;
+    width: 500px;
+  }
+}

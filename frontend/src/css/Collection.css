@@ -1,0 +1,140 @@
+/* HEADER */
+.header-col {
+  background-color: var(--clr-primary-contrast);
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* SHARE */
+
+.col-search {
+  height: 100%;
+  width: 100%;
+  padding: 0.5em 0 0.5em 3em;
+  font-family: var(--ff-primary);
+  background-color: var(--ff-primary);
+  color: var(--ff-secondary);
+  font-size: var(--fs-400);
+  border: 1px solid #656176;
+}
+
+.col-search::placeholder {
+  color: var(--ff-secondary);
+}
+
+.share-col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.modify-col {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-col {
+  background-color: transparent;
+  border: 1px solid #656176;
+  color: var(--clr-secondary);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.btn-col-sel {
+  background-color: transparent;
+  border: 2px solid white;
+  color: var(--clr-secondary);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.btn-col:nth-of-type(even) {
+  padding-left: 20px;
+}
+
+.sort-col {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.sort {
+  width: 100%;
+  padding: 0.5em;
+  font-family: var(--ff-primary);
+  background-color: var(--clr-primary);
+  color: var(--ff-secondary);
+  font-size: var(--fs-400);
+  border: 1px solid #656176;
+  border-radius: 8px;
+}
+
+.collection {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.edit-drop {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  left: 0;
+  padding: 0.5em;
+  background-color: var(--clr-primary-contrast);
+  position: absolute;
+  border-top: 1px solid #656176;
+  z-index: 9985;
+}
+
+.drop-buttons {
+  font-weight: var(--fw-semi-bold);
+  margin-right: 1em;
+}
+
+.drop-buttons button {
+  padding: 10px;
+  margin: 5px;
+  background-color: transparent;
+  border: 1px solid #656176;
+  color: var(--clr-secondary);
+  border-radius: 12px;
+}
+
+.edit-drop p {
+  font-weight: var(--fw-semi-bold);
+  margin-left: 1em;
+  margin-right: auto;
+}
+
+@media (min-width: 55em) {
+  .header-col {
+  }
+
+  .header-content {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .edit-drop {
+    top: 0;
+  }
+
+  .modify-col {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 80em) {
+}

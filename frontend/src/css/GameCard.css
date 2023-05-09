@@ -1,0 +1,85 @@
+.card-container {
+  height: 20rem;
+  width: 20rem;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.editButton {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.selected {
+  border: 2px solid white;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.card-img:hover,
+.add-card:hover {
+  opacity: 50%;
+}
+
+.card-status {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+  padding: 0.8em;
+  border-radius: 5px;
+}
+
+.completed {
+  background-color: #84ad2d;
+}
+
+.wishlist {
+  background-color: aquamarine;
+}
+
+.backlog {
+  background-color: #715ad6;
+}
+
+.planned {
+  background-color: yellow;
+}
+
+.playing {
+  background-color: #08a4bd;
+}
+
+.paused {
+  background-color: #ea8f24;
+}
+
+.dropped {
+  background-color: #f85149;
+}
+
+@media (min-width: 37.5em) {
+  .card-container {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+
+@media (min-width: 80em) {
+}
