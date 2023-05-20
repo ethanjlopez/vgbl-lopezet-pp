@@ -36,7 +36,6 @@ The original motivation behind this application involved my own personal need to
 - Designed using responsive website design to ensure optimal user experience across mobile and desktop devices.
 - Filter and sort your games alphabetically, by rating, etc.
 
-
 ## Pending Features / Goals
 - [ ] Upcoming Releases Page
 - [ ] Users Profile Page
@@ -49,3 +48,7 @@ The original motivation behind this application involved my own personal need to
 - setup any necessary env variables for API / DB calls
 - run npm start
 
+
+
+## Credits
+- [Ethan Lopez](https://github.com/ethanjlopez)
