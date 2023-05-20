@@ -44,9 +44,9 @@ The original motivation behind this application involved my own personal need to
 
 ## Installation
 - Download or clone both frontend and backend repositories
-- install dependecies
-- setup any necessary env variables for API / DB calls
-- run npm start
+- Install any dependecies
+- Setup any necessary env variables for API / DB calls
+- Run npm start
 
 
 
