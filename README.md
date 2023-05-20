@@ -28,15 +28,23 @@ The original motivation behind this application involved my own personal need to
 
 
 ## Features
+- User account creation utilizing packagess such as bcrypt to securely hash and store passwords.
+- Search through a catalogue of recent and upcoming video games sourced through an external API (IGDB)
+- Submit newly collected games to your profile and organize them within six different subcategories.
+- Designed using responsibe website design to ensure optimal user experience across mobile and desktop devices.
+- Filter and sort your games alphabetically, by rating, etc.
 
 
-
-
-
-
-
-
+## Pending Features / Goals
+- [ ] Upcoming Releases Page
+- [ ] Users Profile Page
+- [ ] Display HowLongToBeat for each game
+- [ ] Game Prioritization system
 
 ## Installation
+- Download or clone both frontend and backend repositories
+- install dependecies
+- setup any necessary env variables for API / DB 
+- run npm start
 
 
