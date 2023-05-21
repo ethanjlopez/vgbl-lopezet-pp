@@ -10,9 +10,9 @@ VGBL is a web application designed to provide users the ability to catalogue and
 
 The original motivation behind this application involved my own personal need to develop a website that works in similar functionality to other popular web applications such as imbd or myanimelist. I found myself wanting a way to track and organize my collection of video games in a way where I would be able to understand what games were on my radar for the next time I had time to play or if I wanted to indicate a game was just not worth the time. I also used this opportunity to use this project as a means to learn and develop newfound skills in modern day frameworks and libraries in both frontend and backend web development.
 
-
-<img src="https://github.com/ethanjlopez/vgbl-lopezet-pp/assets/57432657/4ecddc9f-d62e-4fb6-ad08-71d3b63f9b71" width="600" height="500"/>
-
+<p align="center">
+  <img src="https://github.com/ethanjlopez/vgbl-lopezet-pp/assets/57432657/4ecddc9f-d62e-4fb6-ad08-71d3b63f9b71" width="600" height="500"/>
+</p>
 
 
 ## Tech Stack
