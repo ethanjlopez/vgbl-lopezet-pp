@@ -39,7 +39,7 @@ The original motivation behind this application involved my own personal need to
 ## Pending Features / Goals
 - [ ] Upcoming Releases Page
 - [ ] Users Profile Page
-- [ ] Display HowLongToBeat for each game
+- [ ] HowLongToBeat API integration
 - [ ] Addition of ownership labels and prioritization labels
 
 ## Installation
