@@ -4,7 +4,7 @@ Live Link: https://vgbl.netlify.app/
 
 ## Description
 
-VGBL is a web application designed to provide users the ability to catalogue and track/organize their growing collection of video gamee. 
+VGBL is a web application designed to provide users the ability to catalogue and track/organize their growing collection of video games. 
 
 ## Motivation
 
